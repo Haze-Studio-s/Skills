@@ -1,0 +1,19 @@
+{
+  "name": "fivem-developer",
+  "version": "1.0.0",
+  "description": "Skill permanente especializada em desenvolvimento FiveM (QBox, QBCore, ox_lib, ox_inventory, oxmysql, NUI e blindagem anti-exploit).",
+  "author": {
+    "name": "Antigravity FiveM Developer"
+  },
+  "keywords": [
+    "fivem",
+    "qbox",
+    "qbcore",
+    "ox_lib",
+    "ox_inventory",
+    "oxmysql",
+    "lua",
+    "nui",
+    "lation"
+  ]
+}

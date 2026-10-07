@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lation Modern UI</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app" class="modal-overlay hidden">
+        <div class="lation-card">
+            <!-- Header com Faixa Lation -->
+            <header class="lation-head">
+                <div class="lation-brand">
+                    <span id="title" class="lation-title">SISTEMA</span>
+                    <span id="subtitle" class="lation-sub">Painel de Gerenciamento</span>
+                </div>
+                
+                <div class="lation-profile">
+                    <div id="avatar" class="lation-avatar">VP</div>
+                    <div class="lation-pinfo">
+                        <div class="lation-prow">
+                            <span id="player-name" class="lation-pname">Jogador</span>
+                            <span id="player-money" class="chip money">R$ 0</span>
+                        </div>
+                        <div class="lation-lvlrow">
+                            <span id="player-level" class="lation-lvl">NV. 1</span>
+                            <div class="lation-xp"><div id="player-xp-bar" style="width: 0%;"></div></div>
+                            <span id="player-xp-text" class="lation-xp-text">0/100 XP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="btn-close" class="lation-close">✕</button>
+            </header>
+
+            <!-- Abas de Navegação -->
+            <nav id="tabs-container" class="lation-tabs">
+                <button class="lation-tab active" data-tab="tab-overview">Visão Geral</button>
+                <button class="lation-tab" data-tab="tab-items">Catálogo</button>
+            </nav>
+
+            <!-- Conteúdo Dinâmico -->
+            <main id="tab-content" class="lation-body">
+                <div class="lation-section-label">OPÇÕES DISPONÍVEIS <span id="items-count" class="lation-count">(0)</span></div>
+                <div id="items-grid" class="lation-grid-cards">
+                    <!-- Preenchido via app.js -->
+                </div>
+            </main>
+
+            <!-- Rodapé com Ações -->
+            <footer class="lation-foot">
+                <span class="esc-hint">Pressione <b>ESC</b> para fechar</span>
+                <div class="foot-actions">
+                    <button id="btn-cancel" class="lation-btn ghost">Cancelar</button>
+                    <button id="btn-confirm" class="lation-btn primary">Confirmar</button>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "skill-fivem-natives",
+  "version": "1.0.0",
+  "description": "Claude Code skill with FiveM native function reference, auto-updated from cfxnatives.dev",
+  "scripts": {
+    "build": "bun run src/index.ts",
+    "build:force": "bun run src/index.ts --force",
+	"schedule": "bun run src/scheduler.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "type": "module"
+}

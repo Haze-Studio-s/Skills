@@ -1,0 +1,4 @@
+# Antigravity temporary files
+.antigravity/
+.cache/
+*.log
