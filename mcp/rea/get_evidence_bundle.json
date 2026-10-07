@@ -1,0 +1,1 @@
+{"name":"get_evidence_bundle","description":"Return every Evidence record and residual unknown currently retained by this session as one inline bundle for direct inspection or follow-up workflows.","parameters":{"$schema":"https://json-schema.org/draft/2020-12/schema","additionalProperties":false,"examples":[{}],"properties":{},"type":"object"}}
